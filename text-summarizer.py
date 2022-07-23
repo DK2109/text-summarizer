@@ -57,7 +57,7 @@ def build_similarity_matrix(sentences, stop_words):
 
     return similarity_matrix
 
-
+# download stop words
 def generate_summary(file_name, top_n=5):
     nltk.download("stopwords")
     stop_words = stopwords.words('english')
